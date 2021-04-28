@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang&family=Creepster&family=Eater&family=Faster+One&family=Flavors&family=Iceland&family=Megrim&family=Monoton&family=Mountains+of+Christmas&family=New+Rocker&family=Oi&family=Press+Start+2P&family=Raleway+Dots&display=swap');
+
+body {
+    background-image: url(../images/backgroundimage.png);
+    background-size: 25% 25%;
+    background-repeat:repeat;
+
+}
+
+
+.header {
+display: flex;
+flex-wrap: wrap;
+text-align:center;
+align-items: flex-end;
+margin: 2em;
+flex-direction: column;
+font-family: 'Creepster';
+color: #A9F0D1;
+font-size:x-large;
+position: absolute;
+}
+
+
+.allAd {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items:flex-end;
+position: sticky;
+top: 0em;
+}
+
+
+.pageLinks {
+display: flex;
+align-items: center;
+}
+
+.linkJon {
+    position: relative;
+    top: -18px;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    font-family: ‘Battambang’, cursive;
+}
