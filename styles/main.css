@@ -18,7 +18,7 @@ flex-direction: column;
 font-family: 'Creepster';
 color: #A9F0D1;
 font-size:x-large;
-position: absolute;
+/* position: absolute; */
 }
 
 
@@ -27,20 +27,24 @@ display: flex;
 flex-wrap: wrap;
 flex-direction: column;
 align-items:flex-end;
-position: sticky;
+/* position: sticky; */
 top: 0em;
 }
 
 
-.pageLinks {
-display: flex;
-align-items: center;
+.pagelinks--article {
+    border: 10px solid black;
+     
 }
 
-.linkJon {
-    position: relative;
-    top: -18px;
+.pageAnchor {
+    display: block;
 }
+
+/* .linkJon { */
+    /* position: relative; */
+    /* top: -18px; */
+/* } */
 
 
 
@@ -51,4 +55,7 @@ align-items: center;
     text-align:center;
     justify-content: center;
     font-family: ‘Battambang’, cursive;
+}
+.testing {
+    height: 300px;
 }
