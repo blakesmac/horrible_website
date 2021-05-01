@@ -26,64 +26,64 @@ p {
     color:#313131;
     font-size:45px;
     font-weight: bold;
-    -webkit-animation:colorchange 1s infinite alternate;
+    animation:colorchange 1s infinite alternate;
     
     
   }
 
-  @-webkit-keyframes colorchange {
+  @keyframes colorchange {
     0% {
       
-      color: blue;
+      color: red;
     }
     
     10% {
       
-      color: #8e44ad;
+      color: green;
     }
     
     20% {
       
-      color: #1abc9c;
+      color: greenyellow;
     }
     
     30% {
       
-      color: #d35400;
+      color: yellow;
     }
     
     40% {
       
-      color: blue;
+      color: lightgreen;
     }
     
     50% {
       
-      color: #34495e;
+      color: red;
     }
     
     60% {
       
-      color: blue;
+      color:green;
     }
     
     70% {
       
-      color: #2980b9;
+      color: yellowgreen;
     }
     80% {
    
-      color: #f1c40f;
+      color: pink;
     }
     
     90% {
    
-      color: #2980b9;
+      color: rgb(156, 41, 185);
     }
     
     100% {
       
-      color: pink;
+      color: red;
     }
   }
 
@@ -92,16 +92,11 @@ p {
     width: 100px;
     height: 100px;
     animation-name: spin;
-    /* background-color: white; */
     animation-duration: 4000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
     margin: auto;
     padding: 100px
-    /* transform: rotate(3deg); */
-     /* transform: rotate(0.3rad);/ */
-     /* transform: rotate(3grad); */ 
-     /* transform: rotate(.03turn);  */
   }
   
   @keyframes spin {
