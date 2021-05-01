@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang&family=Creepster&family=Eater&family=Faster+One&family=Flavors&family=Iceland&family=Megrim&family=Monoton&family=Mountains+of+Christmas&family=New+Rocker&family=Oi&family=Press+Start+2P&family=Raleway+Dots&display=swap');
+
+body {
+    background-image: url(../images/blakepagebackground.jpg);
+    background-size: auto;
+    
+
+}
+
+.bmHeader {
+    display: flex;
+    align-items:center;
+    flex-direction: column-reverse;
+    border: solid tomato 2em;
+    padding: 0em;
+    color: brown;
+    background-color: crimson;
+    
+}
+
+.sectionbmAds {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4em;
+    justify-content: space-around;
+}
+
+.buttonBM1 {
+background-color:darkgoldenrod;
+}
+
+.buttonBM2 {
+background-color:darkmagenta;
+}
+
+.buttonBM3 {
+background-color:darkturquoise;
+}
+
+.buttonBM4 {
+background-color: forestgreen;
+}
+
+.funnymessage {
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: ghostwhite;
+    border-style: double;
+    font-family: 'Iceland';
+    font-weight:600;
+    margin: 10%;
+    padding: 2%;
+}
+img:hover {
+    opacity: 0%;
+}
