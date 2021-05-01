@@ -65,21 +65,20 @@ header{
   
   /* Style the front side (fallback if image is missing) */
   .flip-box-front {
-    background-color: peachpuff;
+    /* background-color: peachpuff; */
     color: purple;
   }
   
   /* Style the back side */
   .flip-box-back {
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
+    /* color: white; */
+    /* transform: rotateY(180deg); */
     color: white;
-    transform: rotateY(180deg);
+    text-align: center;
   }
 
 .undergif{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
     margin-top: 200px;
     margin-bottom: 100px;
 
@@ -87,19 +86,26 @@ header{
 
 .facts{
     border: seagreen solid 3px;
+    writing-mode: horizontal-tb;
+    margin-bottom: 60px;
 }
 
-.centervideo{
-    border: royalblue solid 5px;
+.funcfacts{
+  margin-bottom: 60px;
 }
+
+.drawing{
+  margin-top: 60px;
+}
+/* .centervideo{
+    border: royalblue solid 5px;
+} */
 
 .takemehome{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   align-content: center;
-}
-
-.hometake{
   text-align: center;
 }
+
