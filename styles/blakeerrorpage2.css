@@ -1,0 +1,21 @@
+body {
+    background-image: url(../images/ORangeface.jpeg);
+    background-size: auto;
+    
+
+}
+
+.errorpage2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    color:fuchsia;
+    border:groove fuchsia 2em;
+    padding: 20em;
+}
+
+.errorpage2_text {
+    background-color: red;
+    color: black;
+    border: chartreuse 3em double;
+}

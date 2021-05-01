@@ -1,0 +1,26 @@
+body {
+    background-image: url(../images/Dalegirbble.jpeg);
+    background-size: auto;
+    
+
+}
+
+.errorpage_title {
+    display:flex;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    color:ghostwhite;
+    background-color: red;
+}
+
+.errordiv_text {
+    justify-content: space-around;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: seashell;
+    background-color: red;
+    border: 10px white solid;
+    padding: 10%;
+
+}
