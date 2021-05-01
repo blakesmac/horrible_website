@@ -1,0 +1,16 @@
+.img-wall{
+    display: flex;
+    height: 400px;
+    width: 500px;
+}
+
+.horrifying-hotdog:hover {
+    height: 1000%;
+    width: 1000%;
+}
+
+img:hover{
+    height: 200%;
+    width: 200%;
+}
+

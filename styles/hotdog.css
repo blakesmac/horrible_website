@@ -1,0 +1,37 @@
+@import "./hotdog-img.css";
+@import "./hotdog-animation.css";
+@import "./hotdog-font.css";
+
+body {
+    background-image: url("../images/hotdogwatermark.jpg");
+    background-size: 200px 300px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Truth {
+  /* background-color: yellow; */
+  background-image: url(../images/mustard.jpeg);
+  width: 100%;
+}
+
+.big-Business {
+  /* background-color: red; */
+  background-image: url(../images/ketchup.jpeg);
+  width: 100%;
+}
+
+.big-Secret {
+  /* background-color: green; */
+  background-image: url(../images/relish.jpeg);
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+

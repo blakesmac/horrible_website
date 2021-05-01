@@ -1,0 +1,123 @@
+/* This causes the text to move awfully slow */
+
+p {
+    animation-duration: 100s;
+    animation-name: slidein;
+    font-size: 2rem;
+  }
+
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+/* This causes the color flashing on the H1 */
+  h1 {
+    margin: 0 auto;
+    text-align: center;
+    color:#313131;
+    font-size:45px;
+    font-weight: bold;
+    -webkit-animation:colorchange 1s infinite alternate;
+    
+    
+  }
+
+  @-webkit-keyframes colorchange {
+    0% {
+      
+      color: blue;
+    }
+    
+    10% {
+      
+      color: #8e44ad;
+    }
+    
+    20% {
+      
+      color: #1abc9c;
+    }
+    
+    30% {
+      
+      color: #d35400;
+    }
+    
+    40% {
+      
+      color: blue;
+    }
+    
+    50% {
+      
+      color: #34495e;
+    }
+    
+    60% {
+      
+      color: blue;
+    }
+    
+    70% {
+      
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+    }
+  }
+
+  /* This causes a div within words to spin */
+  .spin{
+    width: 100px;
+    height: 100px;
+    animation-name: spin;
+    /* background-color: white; */
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    margin: auto;
+    padding: 100px
+    /* transform: rotate(3deg); */
+     /* transform: rotate(0.3rad);/ */
+     /* transform: rotate(3grad); */ 
+     /* transform: rotate(.03turn);  */
+  }
+  
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+
+ 
+h2:hover {
+    writing-mode: vertical-rl;
+}
+
+p:hover {
+    writing-mode: vertical-rl;
+}
