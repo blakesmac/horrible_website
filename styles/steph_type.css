@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Battambang&family=Creepster&family=Eater&family=Faster+One&family=Flavors&family=Iceland&family=Megrim&family=Monoton&family=Mountains+of+Christmas&family=New+Rocker&family=Oi&family=Press+Start+2P&family=Raleway+Dots&family=UnifrakturCook:wght@700&display=swap");
+
+
+/* font-family: 'Battambang', cursive;
+font-family: 'Creepster', cursive;
+font-family: 'Eater', cursive;
+font-family: 'Faster One', cursive;
+font-family: 'Flavors', cursive;
+font-family: 'Iceland', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Mountains of Christmas', cursive;
+font-family: 'New Rocker', cursive;
+font-family: 'Oi', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Raleway Dots', cursive;
+font-family: 'UnifrakturCook', cursive; */
+
+.new_rocker {
+  font-family: 'New Rocker', cursive;
+}
+
+h1.header_left {
+	font-size: 45pt;
+	text-align: justify;
+}
+
+.navy {
+  color: rgb(207, 207, 170);
+}
+
+.hotpink {
+  color: rgb(231, 57, 231);
+}
+
+.teal {
+  color: rgb(81, 226, 219);
+}
+
+.coral {
+  color: rgb(247, 152, 123);
+}
+
+.yellow {
+	color: rgb(255, 198, 74);
+}
+
+.unifraktur-cook {
+  font-family: 'UnifrakturCook', cursive;
+}
+
+.iceland {
+	font-family: 'Iceland', cursive;
+}
+
+.oi {
+	font-family: 'Oi', cursive;
+	font-weight: 200;
+}
+
+h1.oi {
+	font-family: 'Oi', cursive;
+	letter-spacing: 2px;
+	font-weight: 200;
+}
+
+
+p.moon_monsters_text {
+	font-family: 'Faster One', cursive;
+	font-size: 3rem;
+	padding-left: 13px;
+	color: rgb(231, 57, 231);
+}
+
+.lorem_ipsum {
+	font-size: 0.8rem;
+}
+
+.text_swap {
+	color: rgba(21, 18, 189, 0.671);
+	/* font-size: 18pt; */
+	font-family: 'Press Start 2P', cursive;
+}
+
+.text_swap_highlight {
+	text-decoration: hi;
+}
+
+p.a_little_space {
+	font-family: 'Megrim', cursive;
+	font-size: 5em;
+}
+
+.gradient_text {
+    background-image: linear-gradient(15deg, #20b36e, #af4261);
+		background-size: 100%;
+		background-clip: text;
+		color: #af426100;
+}
