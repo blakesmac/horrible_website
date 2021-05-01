@@ -1,0 +1,58 @@
+.marquee {
+  width: 100%;
+  margin: 20px 34px 40px 0;
+  overflow: hidden;
+  box-sizing: border-box;
+	background-color: rgb(255, 62, 245);
+}
+
+.marquee .one {
+	display: inline-block;
+  width: max-content;
+	height: fit-content;
+	padding-left: 100%;
+  /* show the marquee just outside the paragraph */
+  will-change: transform;
+  animation: marquee 1s linear infinite;
+}
+
+.marquee .two {
+	display: inline-block;
+  width: max-content;
+	height: fit-content;
+  padding-left: 90%;
+  /* show the marquee just outside the paragraph */
+  will-change: transform;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee .three {
+	display: inline-block;
+  width: max-content;
+	padding-left: 110%;
+  /* show the marquee just outside the paragraph */
+  will-change: contents;
+  animation: marquee 2s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+/* end marquee */
+
+.one {
+	font-size: 19pt;
+}
+
+.two{
+	font-size: 32pt;
+	color: lawngreen;
+}
+
+.three{
+	font-size: 72pt;
+	color: rgb(212, 95, 95);
+}
+
+.four{}
